@@ -6,6 +6,7 @@
 }
 
 :root {
+    --primary: hsl(25, 97%, 53%);
     --white: hsl(0, 0%, 100%);
     --lt-gray: hsl(217, 12%, 63%);
     --md-gray: hsl(216, 12%, 54%);
