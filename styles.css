@@ -16,4 +16,6 @@
 
 body {
     width: 375px;
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--very-dark-blue);
 }
