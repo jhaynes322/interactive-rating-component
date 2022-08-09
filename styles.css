@@ -5,6 +5,14 @@
     font-size: 15px;
 }
 
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lt-gray: hsl(217, 12%, 63%);
+    --md-gray: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+}
+
 body {
     width: 375px;
 }
