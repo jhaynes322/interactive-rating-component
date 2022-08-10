@@ -86,6 +86,7 @@ p {
     height: 40px;
     border-radius: 50%;
     cursor: pointer;
+    border: none;
 }
 
 .num:hover {
@@ -104,7 +105,7 @@ p {
     align-items: center;
 }
 
-button {
+.submit {
     width: 275px;
     height: 40px;
     border: none;
@@ -114,7 +115,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.submit:hover {
     background-color: var(--white);
     color: var(--primary);
 }
