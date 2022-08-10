@@ -31,10 +31,10 @@ body {
 
 .box {
     background-color: var(--dark-blue);
-    width: 80vw;
+    width: 325px;
     height: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 35px;
+    padding-right: 30px;
     padding-bottom: 30px;
     padding-top: 25px;
     border-radius: 20px;
@@ -85,4 +85,36 @@ p {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.num:hover {
+    background-color: var(--md-gray);
+}
+
+.num:active {
+    background-color: var(--primary);
+}
+
+#button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 275px;
+    height: 40px;
+    border: none;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--white);
+    color: var(--primary);
 }
