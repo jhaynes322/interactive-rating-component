@@ -34,13 +34,55 @@ body {
     width: 80vw;
     height: auto;
     padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    border-radius: 20px;
 }
 
+/*I need to come back to this*/
 svg {
-    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 17%, 27%);
+    border-radius: 50%;
     padding-bottom: 20px;
+    width: 40px;
+    height: 40px;
 }
 
 h1 {
     padding-bottom: 20px;
+    padding-top: 20px;
+    color: var(--white);
+    font-size: 1.5em;
+}
+
+p {
+    padding-bottom: 30px;
+    color: var(--md-gray);
+    line-height: 1.5em;
+}
+
+.rating {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+}
+
+.num {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 17%, 27%);
+    color: var(--lt-gray);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
