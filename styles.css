@@ -41,7 +41,7 @@ body {
 }
 
 /*I need to come back to this*/
-svg {
+#star {
     display: flex;
     flex-direction: column;
     justify-content: center;
