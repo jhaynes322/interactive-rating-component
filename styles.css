@@ -52,8 +52,6 @@ body {
     background-color: var(--dark-blue);
     max-width: 325px;
     height: auto;
-    padding-left: 35px;
-    padding-right: 30px;
     padding-bottom: 30px;
     padding-top: 25px;
     border-radius: 20px;
@@ -145,4 +143,37 @@ p {
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+.thanks-svg {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+#thanks {
+    text-align: center;
+}
+
+#thanks-p {
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.thanks-string {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#rating-string {
+    text-align: center;
+    background-color: var(--md-gray);
+    color: var(--primary);
+    height: 30px;
+    width: 170px;
+    border-radius: 20px;
 }
