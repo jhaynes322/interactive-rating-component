@@ -40,6 +40,25 @@ body {
     border-radius: 20px;
 }
 
+.thanks-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.thanks-box {
+    background-color: var(--dark-blue);
+    max-width: 325px;
+    height: auto;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+
 
 .star-box {
     display: flex;
