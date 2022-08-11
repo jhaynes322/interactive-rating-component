@@ -91,7 +91,7 @@ p {
 
 }
 
-.num {
+#num {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,11 +105,11 @@ p {
     border: none;
 }
 
-.num:hover {
+#num:hover {
     background-color: var(--md-gray);
 }
 
-.num:active {
+#num:active {
     background-color: var(--primary);
 }
 
