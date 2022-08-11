@@ -31,7 +31,7 @@ body {
 
 .box {
     background-color: var(--dark-blue);
-    width: 325px;
+    max-width: 325px;
     height: auto;
     padding-left: 35px;
     padding-right: 30px;
@@ -40,15 +40,14 @@ body {
     border-radius: 20px;
 }
 
-/*I need to come back to this*/
-#star {
+
+.star-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background-color: hsl(213, 17%, 27%);
     border-radius: 50%;
-    padding-bottom: 20px;
     width: 40px;
     height: 40px;
 }
@@ -118,4 +117,9 @@ p {
 .submit:hover {
     background-color: var(--white);
     color: var(--primary);
+}
+
+footer {
+    margin: auto;
+    border: 1px solid white;
 }
