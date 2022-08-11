@@ -11,3 +11,11 @@
 //then, make a function that creates rating string.
 //That function should return a new variable with the full string.
 //Finally, append that new variable to the HTML (new card)
+
+const buttons = document.querySelectorAll(#num);
+
+buttons.forEach((button) => {
+    buttons.addEventListener('click', () => {
+        alert(buttons.class);
+    })
+})
