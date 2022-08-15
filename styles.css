@@ -21,6 +21,10 @@ body {
     background-color: var(--very-dark-blue);
 }
 
+.hidden {
+    display: none;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -91,7 +95,35 @@ p {
 
 }
 
-.ratingButton {
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+label {
+    background-color: hsl(213, 19%, 23%);
+    height: 2.75rem;
+    width: 2.75rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(217, 12%, 63%);
+}
+
+input {
+    display: none;
+}
+
+input:checked+label {
+    transition: all 0.5s;
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+/*.ratingButton {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,13 +137,13 @@ p {
     border: none;
 }
 
-.rating-button:hover {
+.ratingButton:hover {
     background-color: var(--md-gray);
 }
 
-.rating-button:active {
+.ratingButton:active {
     background-color: var(--primary);
-}
+}*/
 
 #button {
     width: 100%;
@@ -129,6 +161,7 @@ p {
     color: var(--white);
     border-radius: 20px;
     cursor: pointer;
+    margin-top: 22px;
 }
 
 .submit:hover {
