@@ -91,7 +91,7 @@ p {
 
 }
 
-#num {
+.rating-button {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,11 +105,11 @@ p {
     border: none;
 }
 
-#num:hover {
+.rating-button:hover {
     background-color: var(--md-gray);
 }
 
-#num:active {
+.rating-button:active {
     background-color: var(--primary);
 }
 
