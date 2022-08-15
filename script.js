@@ -12,9 +12,5 @@
 //That function should return a new variable with the full string.
 //Finally, append that new variable to the HTML (new card)
 
-document.getElementById('1').addEventListener('click', orangeRating);
 
-function orangeRating() {
-    //document.getElementsByClassName('.ratingButton').style.backgroundColor = "orange";
-    console.log('test');
-}
+
