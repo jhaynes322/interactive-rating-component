@@ -27,6 +27,7 @@ body {
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
@@ -44,21 +45,11 @@ body {
     border-radius: 20px;
 }
 
-.thanks-container {
+.thanks-box {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
-}
-
-.thanks-box {
-    background-color: var(--dark-blue);
-    max-width: 325px;
-    height: auto;
-    padding-bottom: 60px;
-    padding-top: 25px;
-    border-radius: 20px;
 }
 
 
@@ -199,8 +190,7 @@ input:checked+label {
 
 #thanks-p {
     text-align: center;
-    margin-right: 25px;
-    margin-left: 25px;
+    max-width: 260px;
 }
 
 .thanks-string {
