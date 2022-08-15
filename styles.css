@@ -91,7 +91,7 @@ p {
 
 }
 
-.rating-button {
+.ratingButton {
     display: flex;
     flex-direction: column;
     justify-content: center;
