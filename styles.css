@@ -113,13 +113,23 @@ label {
     color: hsl(217, 12%, 63%);
 }
 
+label:hover {
+    transition: all 0.5s;
+    background-color: var(--lt-gray);
+}
+
 input {
     display: none;
 }
 
+/*input:hover {
+    background-color: var(--primary);
+    color: hsl(0, 0%, 100%);
+}*/
+
 input:checked+label {
     transition: all 0.5s;
-    background-color: hsl(217, 12%, 63%);
+    background-color: var(--primary);
     color: white;
 }
 
