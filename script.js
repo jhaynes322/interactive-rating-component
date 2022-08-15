@@ -12,10 +12,9 @@
 //That function should return a new variable with the full string.
 //Finally, append that new variable to the HTML (new card)
 
-const buttons = document.querySelectorAll(#num);
+document.getElementById('1').addEventListener('click', orangeRating);
 
-buttons.forEach((button) => {
-    buttons.addEventListener('click', () => {
-        alert(buttons.class);
-    })
-})
+function orangeRating() {
+    //document.getElementsByClassName('.ratingButton').style.backgroundColor = "orange";
+    console.log('test');
+}
