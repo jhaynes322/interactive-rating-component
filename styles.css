@@ -21,9 +21,9 @@ body {
     background-color: var(--very-dark-blue);
 }
 
-/*.hidden {
+.hidden {
     display: none;
-}*/
+}
 
 .container {
     display: flex;
@@ -71,6 +71,10 @@ h1 {
 p {
     color: var(--md-gray);
     line-height: 1.5em;
+}
+
+button {
+    border: none;
 }
 
 .selected {
@@ -160,7 +164,7 @@ p {
     margin-top: 22px;
 }
 
-.submit:hover {
+submit:hover {
     background-color: var(--white);
     color: var(--primary);
 }
@@ -202,8 +206,10 @@ p {
     background-color: var(--md-gray);
     color: var(--primary);
     height: 30px;
-    width: 170px;
+    width: auto;
     border-radius: 20px;
     padding-bottom: none;
     padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
