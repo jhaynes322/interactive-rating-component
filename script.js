@@ -1,16 +1,38 @@
-//User clicks one of five rating buttons:
-//  +JS should: *store # as variable (ratingNum);
-//              *change color of button clicked;
+//userRating starts at 0 (let userRating = 0)
+//create var reference to rating buttons
+//creat forEach loop to add event listeners to each rating button
+//the function 
+//user clicks a rating.
+//store
+//let userRating = 0;
+const oldCard = document.querySelector('container');
+const buttons = document.querySelectorAll('button');
+const submitBtn = document.querySelector('submit');
+const newCard = document.querySelector('thanksContainer');
+const rateChoice = document.getElementById('#userRating');
+let rate = 0;
 
-//When user clicks 'submit':
-//  +JS should: *open new card;
-//              *concatenate obj. literal to string to make rating statement;
-//              *append rating statement to DOM;
+buttons.forEach(num => {
+    num.addEventListener('click', function () {
+        rate = this.innerHTML
+        buttons.forEach(button => button.classList.remove('selected'));
+        this.classList.add('selected');
+    })
+});
 
-//First, store clicked rating num as variable,
-//then, make a function that creates rating string.
-//That function should return a new variable with the full string.
-//Finally, append that new variable to the HTML (new card)
+function rateHandler() {
+    if (rate === 0) {
+        alert("Please select a rating")
+    } else {
+        rateChoice.innerHTML = rate
+        //newCard.classList.remove('.hidden');
+        //oldCard.classList.add('.hidden');
+    }
+}
+
+
+
+
 
 
 
