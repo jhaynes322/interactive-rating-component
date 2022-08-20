@@ -5,18 +5,18 @@
 //user clicks a rating.
 //store
 //let userRating = 0;
-const oldCard = document.querySelector('container');
+const oldCard = document.querySelector('.oldCard');
 const buttons = document.querySelectorAll('button');
-const submitBtn = document.querySelector('submit');
-const newCard = document.querySelector('thanksContainer');
-const rateChoice = document.getElementById('#userRating');
+const submitBtn = document.querySelector('.submit');
+const newCard = document.querySelector('.thanksContainer');
+const rateChoice = document.getElementById('#selectedRating');
 let rate = 0;
 
 buttons.forEach(num => {
-    num.addEventListener('click', function () {
-        rate = this.innerHTML
+    num.addEventListener('click', (e) => {
+        rate = e.target.innerHTML
         buttons.forEach(button => button.classList.remove('selected'));
-        this.classList.add('selected');
+        e.target.classList.add('selected');
     })
 });
 
@@ -24,9 +24,10 @@ function rateHandler() {
     if (rate === 0) {
         alert("Please select a rating")
     } else {
-        rateChoice.innerHTML = rate
-        //newCard.classList.remove('.hidden');
-        //oldCard.classList.add('.hidden');
+        //need to try to append rate to rating-string
+        console.log(rate);
+        newCard.classList.remove('hidden');
+        oldCard.classList.add('hidden');
     }
 }
 
